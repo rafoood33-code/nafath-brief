@@ -20,11 +20,20 @@ Apple’s App Transport Security (ATS) requires network connections made through
 Resource: Preventing Insecure Network Connections
 https://developer.apple.com/documentation/security/preventing-insecure-network-connections
 Networking
+IPv6 uses 128-bit addresses, while IPv4 uses 32-bit addresses. This creates a much larger address space in IPv6, allowing far more unique addresses for internet-connected devices. As governments connect more mobile apps, sensors, and online services, the availability of addresses becomes increasingly important. IPv6 also includes features designed to support modern internet communication. Planning for IPv6 helps public services accommodate growth without depending only on the limited IPv4 address space.
 
+Resource: RFC 8200 — Internet Protocol, Version 6 (IPv6) Specification
+https://www.rfc-editor.org/info/rfc8200/
 Cybersecurity
+Prompt injection is an attack in which someone uses input to manipulate an AI system into ignoring its intended instructions. Direct prompt injection comes from content entered by a user, while indirect prompt injection is hidden in external content, such as a webpage or document, that the AI retrieves or processes. Risk-reduction methods include treating retrieved content as untrusted data and limiting the assistant’s permissions. Testing with adversarial examples and keeping human oversight for sensitive actions can also reduce risk.
 
+Resource: LLM01: Prompt Injection
+https://genai.owasp.org/llmrisk2023-24/llm01-24-prompt-injection/
 Data
+Anonymization and pseudonymization are different ways to reduce privacy risks in chat logs. Anonymization aims to prevent people from being identified, while pseudonymization replaces identifying details with codes or other identifiers that may still be linked back to a person using additional information. Under UK data protection law, genuinely anonymous information falls outside the scope of personal data protection rules, but pseudonymized data generally remains personal data. A government assistant should minimize collected data and assess whether re-identification is possible.
 
+Resource: Introduction to Anonymisation
+https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/anonymisation/introduction-to-anonymisation/
 Misconception in My Track
 
 Open Question
