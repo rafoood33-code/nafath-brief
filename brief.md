@@ -35,5 +35,9 @@ Anonymization and pseudonymization are different ways to reduce privacy risks in
 Resource: Introduction to Anonymisation
 https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/anonymisation/introduction-to-anonymisation/
 Misconception in My Track
+A common misconception is that IPv6 is simply a longer version of IPv4 and that its only benefit is providing more addresses. In fact, IPv6 is a distinct Internet Protocol version with its own packet format and addressing architecture. Its 128-bit addresses provide a vastly larger address space than IPv4’s 32-bit addresses, helping support the growth of connected devices. RFC 8200, in the section titled “Introduction,” describes IPv6 as the successor to IPv4 and explains its basic design. This shows that IPv6 is an important protocol evolution, not just a longer address.
 
+Resource evidence: RFC 8200, “Introduction”
+https://www.rfc-editor.org/rfc/rfc8200.html#section-1
 Open Question
+How can a government mobile service introduce IPv6 while continuing to support citizens and systems that still rely on IPv4?
